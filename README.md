@@ -1,4 +1,4 @@
-# REPLANG
+# REPLANG EXAMPLE PROGRAM
 ```js
 sys.begin("My Program") // Initialize Program  
 func math() { // Run function "math"     
@@ -10,5 +10,5 @@ func math() { // Run function "math"
   end // End the if statement     
 sys.log(sys.name) // "My Program" // sys.name is the name of the program } 
 func.math() // run the math function  
-sys.exit() // halt the program&lt;
+sys.exit() // halt the program
 ```
