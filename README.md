@@ -6,8 +6,8 @@ func math() { // Run function "math"
   if ques == "2" {          
     sys.log("Correct!") // Like console.log()  }     
   else {          
-    sys.log("Incorrect!")     
-  end // End the if statement  }      
+    sys.log("Incorrect!") }  
+  end // End the if statement     
 sys.log(sys.name) // "My Program" // sys.name is the name of the program } 
 func.math() // run the math function  
 sys.exit() // halt the program&lt;
