@@ -1,7 +1,7 @@
 sys.start()
-start.name("Hello World") // Initialize Program
+start.name("My Program") // Initialize Program
 {
-sys.log(sys.name) // "Hello World" // sys.name is the name of the program
+sys.log(sys.name.add"\n") // "My Program" // sys.name is the name of the program
 sys.log("Hello World")
-sys.exit() // halt the program
+sys.halt() // halt the program
 }
