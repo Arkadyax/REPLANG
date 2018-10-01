@@ -16,7 +16,7 @@ func math() // Run function "math"
 sys.start()
 start.name("My Program") // Initialize Program
 {
-sys.log(sys.name.add"\n") // "My Program" // sys.name is the name of the program
+sys.log(sys.name.add("\n")) // "My Program" // sys.name is the name of the program
 sys.load(func.math())
 sys.stop() // halt the program
 }
