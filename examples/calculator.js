@@ -19,7 +19,7 @@ sys.use(func.numbers())
     {
       sys.log(num1 * num2)
     }
-    else
+    elsif ask == "/"
     {
     sys.log(num1 / num2)
     }
