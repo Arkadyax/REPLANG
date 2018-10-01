@@ -24,8 +24,8 @@ sys.use(func.numbers())
     sys.log(num1 / num2)
     }
   end // End the if statement 
-} 
-sys.begin("My Program") // Initialize Program
+}
+sys.start(sys.name("My Program")) // Initialize Program
 {
 sys.log(sys.name) // "My Program" // sys.name is the name of the program
 func.math() // run the math function  
