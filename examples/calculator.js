@@ -1,25 +1,26 @@
+
 func numbers()
 {
-  num1: sys.input(dcml("first number: "))
-  num2: sys.input(dcml("second number: "))
+  num1 = sys.input(dcml("first number: "))
+  num2 = sys.input(dcml("second number: "))
 }
 func calc() // Run function "calc"
 sys.use(func.numbers())
 {
-  ask: sys.input("What operator: ") // Request user input     
+  ask = sys.input("What operator: ") // Request user input     
     if ask == "+" 
     {          
       sys.log(num1 + num2) // Like console.log()  
     }    
-    elsif ask == "-"
+    else if ask == "-"
     {          
       sys.log(num1 - num2) 
     }  
-    elsif ask == "*"
+    else if ask == "*"
     {
       sys.log(num1 * num2)
     }
-    elsif ask == "/"
+    else if ask == "/"
     {
     sys.log(num1 / num2)
     }
