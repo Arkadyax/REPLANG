@@ -1,4 +1,4 @@
-
+```js
 func numbers()
 {
   num1 = sys.input(dcml("first number: "))
@@ -33,3 +33,4 @@ sys.log(sys.name) // "My Program" // sys.name is the name of the program
 func.math() // run the math function  
 sys.stop() // halt the program
 }
+```
