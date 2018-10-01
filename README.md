@@ -13,9 +13,9 @@ func math() // Run function "math"
   }  
   end // End the if statement 
 } 
-sys.begin("My Program") // Initialize Program 
+sys.begin("My Program") // Initialize Program
 {
-sys.log(sys.name) // "My Program" // sys.name is the name of the program } 
+sys.log(sys.name) // "My Program" // sys.name is the name of the program
 func.math() // run the math function  
 sys.exit() // halt the program
 }
