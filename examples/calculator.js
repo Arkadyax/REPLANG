@@ -1,7 +1,7 @@
 func numbers()
 {
-  num1: sys.input("first number: ")
-  num2: sys.input("second number: ")
+  num1: sys.input(intr("first number: "))
+  num2: sys.input(dcml("second number: "))
 }
 func calc() // Run function "calc"
 sys.use(func.numbers())
