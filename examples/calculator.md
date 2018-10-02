@@ -30,7 +30,7 @@ sys.start()
 start.name("My Program") // Initialize Program
 {
 sys.log(sys.name) // "My Program" // sys.name is the name of the program
-func.math() // run the math function  
+func.calc() // run the math function  
 sys.stop() // halt the program
 }
 ```
