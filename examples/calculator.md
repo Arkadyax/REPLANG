@@ -22,7 +22,7 @@ sys.use(func.numbers())
     }
     else if ask == "/"
     {
-    sys.log(num1 / num2)
+      sys.log(num1 / num2)
     }
   end // End the if statement 
 }
