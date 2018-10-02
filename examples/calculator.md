@@ -1,8 +1,8 @@
 ```js
-func numbers()
+func numbers() // Run Function "numbers"
 {
-  num1 = sys.input(dcml("first number: "))
-  num2 = sys.input(dcml("second number: "))
+  num1 = sys.input(dcml("first number: ")) // request math input (dcml = decimal)
+  num2 = sys.input(dcml("second number: ")) // request math input (dcml = decimal)
 }
 func calc() // Run function "calc"
 sys.use(func.numbers())
